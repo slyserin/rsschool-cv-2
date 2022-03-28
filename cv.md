@@ -6,6 +6,7 @@
 * Phone: +375291906022
 * Email: anjutik1994@gmail.com
 * GitHub:  https://github.com/slyserin
+---
 ##  About Me
  
 I am 27 years old. I work as a teacher of mathematics and computer science in grades 10-11. I also work as trainers at IT Academy, teach programming courses in Minecraft and Python. 
@@ -21,6 +22,7 @@ I love listening to music and good tea.
 -   CSS (Basic)
 -   JavaScript Basics
 -   Python (Basic)
+---
 ## Code Examples 
 Count the divisors of a number:
 ```
