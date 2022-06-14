@@ -7,8 +7,94 @@
     <title>cv</title>
     <link rel = "stylesheet" href = "style.css">
     <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main"> 
+        <div class="main-container">
+            <section class="section" id="profile">
+                <h1 class="section-title">Hanna Mikitchuk</h1>
+                <img width="130" src="foto.jpg" alt="my foto">    
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Location: Minsk, Belarus</li>
+                    <li>Phone: +375291906022</li>
+                    <li>Email: anjutik1994@gmail.com</li>
+                    <li>GitHub:  https://github.com/slyserin</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I am 27 years old. </p>
+                <p>I work as a teacher of mathematics and computer science in grades 10-11. I also work as trainers at IT Academy, teach programming courses in Minecraft and Python.</p>
+                <p>I love listening to music and good tea.</p>
+                <p>My strengths: </p>
+                <ul>
+                    <li>purposeful student.</li>
+                    <li>I'm not afraid of difficult situations.</li>
+                    <li>I love to learn and develop.</li>
+                    <li>My goal is to start a career as a frontend developer.</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS (Basic)</li>
+                    <li>JavaScript Basics</li>
+                    <li>Python (Basic)</li>
+                </ul>
+         
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <p>Count the divisors of a number:</p>
+                <pre>
+    function getDivisorsCnt(n){
+        let k=0
+        for( let i =0; i<=n;i++){
+            n%i==0?k++:k;
+        }
+        return k
+    }
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>University: </p>
+                <p>Maxim Tank Belarusian State Pedagogical Univerity, mathematics and computer science amjor</p>
+         
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A2 (B1 in process…)</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="https://github.com/slyserin">Hanna Mikitchuk</a>, Minsk 2022
+        </div>
+    </footer>
+
 </body>
 </html>
